@@ -1,0 +1,70 @@
+/* layout */
+#wrap {}
+#header {height: 327px; 
+	/*background-image: url(../img/header_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;*/
+	background: url(../img/header_bg.jpg) repeat-x center top;
+}
+#contents {background-color: #888;}
+#footer {height: 200px; background-color: #777;}
+
+/* container */
+.container {position: relative; width: 990px; background-color: rgba(255,255,255,0.4); margin:0 auto;}
+
+/* contents layout */
+#cont-nav {width: 100%; background-color: #666; }
+#cont-tit {width: 100%; height: 100px; background-color: #555; }
+#cont-ban {width: 100%; height: 100px; background-color: #333; }
+#cont-cont {width: 100%; height: 100px; background-color: #222; }
+
+/* quick */
+.quick {text-align: right;}
+.quick a {color: #fff; padding: 5px 0 0 10px; display: inline-block;}
+.quick a:hover {color: #ccc;}
+
+/* title - inline
+.title {text-align: center;}
+.title p {background-color: #2698cb; font-size: 28px; display: inline-block; color: #fff; margin-top: 100px; padding: 5px 15px; text-transform: uppercase;}
+.title h1 a {background-color: #4aa8d4; font-size: 18px; color: #fff; text-transform: capitalize; padding: 5px 15px; display: inline-block;  }
+*/
+
+/* title - position */
+.title h1 {position: absolute; left:390px; top: 150px; }
+.title h1 a {background-color: #4aa8d4; font-size: 18px; color: #fff; text-transform: capitalize; padding: 5px 15px; display: block;  }
+.title p {background-color: #2698cb; font-size: 28px; color: #fff; padding: 5px 15px; text-transform: uppercase; position: absolute; left:230px; top:100px; }
+
+/* icon */
+.icon {position: absolute; left: 360px; top: 220px;  }
+.icon ul {overflow: hidden;}
+.icon li {float: left;}
+.icon li a {width: 57px; height: 57px; display: block; margin: 0 3px; background-image: url(../img/icon.png); }
+.icon li.icon-tit1 a { }
+.icon li.icon-tit2 a {background-position: 0 -120px; }
+.icon li.icon-tit3 a {background-position: 0 -240px; }
+.icon li.icon-tit4 a {background-position: 0 -360px; }
+.icon li.icon-tit1 a:hover {background-position: 0 -60px; }
+.icon li.icon-tit2 a:hover {background-position: 0 -180px; }
+.icon li.icon-tit3 a:hover {background-position: 0 -300px; }
+.icon li.icon-tit4 a:hover {background-position: 0 -420px; }
+
+/* nav */
+.nav {overflow: hidden;  }
+.nav div {float: left; width: 40%;  }
+.nav div h3 {  }
+.nav div ul {overflow: hidden;  }
+.nav div ul li {width: 50%; float: left;  }
+.nav div ul li a {  }
+.nav div.last {width: 20%;  }
+.nav div.last ul li {width: 100%; }
+
+
+
+
+
+
+
+
+
+
+
